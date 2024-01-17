@@ -1,8 +1,9 @@
-<div align="center"><h1>Forecasting QoS of cloud services</h1></div>
+<div align="center"><h1>Forecasting the quality of cloud services using an LSTM network</h1></div>
 
 * * *
-El presente repositorio gestiona los ficheros utilizados en los experimentos del paper:
-_**Forecasting QoS of cloud services using LSTM network**_
+This repository manages the files used in the experiments of the paper:
+_**Forecasting the quality of cloud services using an LSTM network
+**_
 * * *
 
 <p align="center">
@@ -11,19 +12,18 @@ _**Forecasting QoS of cloud services using LSTM network**_
     </a>
 </p>
 
-La siguiente sección presenta los resultados obtenidos de las 16 variables utilizadas para el desarrollo del
-experimento, así como información adicional asociadas a los mismos.
+The following section presents the results obtained for the 16 variables used to develop the experiment, as well as additional information related to them.
 
+These results are:
+
+* Representation of the **_training, validation and test_** datasets with the observations extracted from the cloud service SAlert monitoring.
+* Model validation metrics consisting of **_RMSE, MAE, MAPE, MASE_**
+* Model fitting on the training dataset and prediction on the test dataset.
 Los resultados consisten en:
-
-* Representación del _Dataset_ de **entraneminto, validación y prueba** con las observaciones extraidas del monitoreo de
-  _IaaS_.
-* Métricas de validación de modelos, conformadas por: _**RMSE, MAE, MAPE, MASE**_
-* Ajuste de los modelos sobre los conjuntos de entrenamiento y _forecasting_ sobre conjunto de pruebas.
 
 ## _Datasets_
 
-| Variable            | Conjuntos                                                                  |
+| Variable            | Dataset                                                                  |
 |---------------------|----------------------------------------------------------------------------|
 | Free Memory         | ![Free Memory_dataset.png](imgs%2FFree%20Memory_dataset.png)               |
 | Used Memory         | ![Used Memory_dataset.png](imgs%2FUsed%20Memory_dataset.png)               |
@@ -63,9 +63,9 @@ Los resultados consisten en:
 | Disk Used percent   | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mrse.png)     | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mae.png)     | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mape.png)     | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mase.png)     |
 | Uptime              | ![Uptime_mrse.png](imgs%2FUptime_mrse.png)                               | ![Uptime_mrse.png](imgs%2FUptime_mae.png)                               | ![Uptime_mrse.png](imgs%2FUptime_mape.png)                               | ![Uptime_mrse.png](imgs%2FUptime_mase.png)                               |
 
-## Resultados de entrenamiento
+## LSTM Model Results
 
-| Variable            | Entrenamiento                                                                            | Pruebas                                                                                |
+| Variable            | Training                                                                            | Testing                                                                                |
 |---------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | Free Memory         | ![Free Memory_train_result.png](imgs%2FFree%20Memory_train_result.png)                   | ![Free Memory_test_result.png](imgs%2FFree%20Memory_test_result.png)                   |
 | Used Memory         | ![Used Memory_train_result.png](imgs%2FUsed%20Memory_train_result.png)                   | ![Used Memory_test_result.png](imgs%2FUsed%20Memory_test_result.png)                   |
