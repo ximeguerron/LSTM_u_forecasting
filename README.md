@@ -2,8 +2,7 @@
 
 * * *
 This repository manages the files used in the experiments of the paper:
-_**Forecasting the quality of cloud services using an LSTM network
-**_
+_**Forecasting the quality of cloud services using an LSTM network**_
 * * *
 
 <p align="center">
@@ -19,7 +18,6 @@ These results are:
 * Representation of the **_training, validation and test_** datasets with the observations extracted from the cloud service SAlert monitoring.
 * Model validation metrics consisting of **_RMSE, MAE, MAPE, MASE_**
 * Model fitting on the training dataset and prediction on the test dataset.
-Los resultados consisten en:
 
 ## _Datasets_
 
@@ -42,7 +40,7 @@ Los resultados consisten en:
 | Disk Used percent   | ![Disk Used percent_dataset.png](imgs%2FDisk%20Used%20percent_dataset.png) |
 | Uptime              | ![Uptime_dataset.png](imgs%2FUptime_dataset.png)                           |
 
-## Métricas
+## Metrics
 
 | Variable            | RMSE                                                                     | MAE                                                                     | MAPE                                                                     | MASE                                                                     |
 |---------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
@@ -83,6 +81,5 @@ Los resultados consisten en:
 | Memory Used percent | ![Memory Used percent_train_result.png](imgs%2FMemory%20Used%20percent_train_result.png) | ![Memory Used percent_test_result.png](imgs%2FMemory%20Used%20percent_test_result.png) |
 | Disk Used percent   | ![Disk Used percent_train_result.png](imgs%2FDisk%20Used%20percent_train_result.png)     | ![Disk Used percent_test_result.png](imgs%2FDisk%20Used%20percent_test_result.png)     |
 | Uptime              | ![Uptime_train_result.png](imgs%2FUptime_train_result.png)                               | ![Uptime_test_result.png](imgs%2FUptime_test_result.png)                               |
-
 
 
