@@ -23,22 +23,22 @@ These results are:
 
 | Variable            | Dataset                                                                  |
 |---------------------|----------------------------------------------------------------------------|
-| Free Memory         | ![Free Memory_dataset.png](imgs%2FFree%20Memory_dataset.png)               |
-| Used Memory         | ![Used Memory_dataset.png](imgs%2FUsed%20Memory_dataset.png)               |
-| Free Disk           | ![Free Disk_dataset.png](imgs%2FFree%20Disk_dataset.png)                   |
-| Used Disk           | ![Used Disk_dataset.png](imgs%2FUsed%20Disk_dataset.png)                   |
-| Disk read/s         | ![Disk read_s_dataset.png](imgs%2FDisk%20read_s_dataset.png)               |
-| Disk write/s        | ![Disk write_s_dataset.png](imgs%2FDisk%20write_s_dataset.png)             |
-| NetBytes In         | ![NetBytes In_dataset.png](imgs%2FNetBytes%20In_dataset.png)               |
-| NetBytes Out        | ![NetBytes Out_dataset.png](imgs%2FNetBytes%20Out_dataset.png)             |
-| NetPackets In       | ![NetPackets In_dataset.png](imgs%2FNetPackets%20In_dataset.png)           |
+| Free Memory         | ![FreeMemory_data.jpg](imgs/dataset/FreeMemory_data.jpg)               |
+| Used Memory         | ![UsedMemory_data.jpg](imgs/dataset/UsedMemory_data.jpg)               |
+| Free Disk           | ![Free Disk_dataset.png](imgs/dataset/FreeDisk_data.jpg)                   |
+| Used Disk           | ![Used Disk_dataset.png](imgs/dataset/UsedDisk_data.jpg)                   |
+| Disk read/s         | ![Disk read_s_dataset.png](imgs/dataset/Diskreads_data.jpg)               |
+| Disk write/s        | ![Disk write_s_dataset.png](imgs/dataset/Diskwrites_data.jpg)             |
+| NetBytes In         | ![NetBytes In_dataset.png](imgs/dataset/NetBytesIn_data.jpg)               |
+| NetBytes Out        | ![NetBytes Out_dataset.png](imgs/dataset/NetBytesOut_data.jpg)             |
+| NetPackets In       | ![NetPackets In_dataset.png](imgs/dataset/NetPacketsIn_data.jpg)           |
 | NetPackets Out      |                                                                            |
-| Rx packets          | ![Rx packets_dataset.png](imgs%2FRx%20packets_dataset.png)                 |
-| Tx packets          | ![Tx packets_dataset.png](imgs%2FTx%20packets_dataset.png)                 |
-| CPU percent         | ![Uptime_dataset.png](imgs%2FUptime_dataset.png)                           |
-| Memory Used percent | ![Used Memory_dataset.png](imgs%2FUsed%20Memory_dataset.png)               |
-| Disk Used percent   | ![Disk Used percent_dataset.png](imgs%2FDisk%20Used%20percent_dataset.png) |
-| Uptime              | ![Uptime_dataset.png](imgs%2FUptime_dataset.png)                           |
+| Rx packets          | ![Rx packets_dataset.png](imgs/dataset/Rxpackets_data.jpg)                 |
+| Tx packets          | ![Tx packets_dataset.png](imgs/dataset/Txpackets_data.jpg)                 |
+| CPU percent         | ![Uptime_dataset.png](imgs/dataset/FUptime_data.jpg)                           |
+| Memory Used percent | ![Used Memory_dataset.png](imgs/dataset/MemoryUsedpercent_data.jpg)               |
+| Disk Used percent   | ![Disk Used percent_dataset.png](imgs/dataset/DiskUsedpercent_data.jpg) |
+| Uptime              | ![Uptime_dataset.png](imgs/dataset/Uptime_data.jpg)                           |
 
 ## Metrics
 
