@@ -1,4 +1,4 @@
-![image](https://github.com/ximeguerron/LSTM_u_forecasting/assets/16210142/eb35da99-bc46-4e36-9b12-a195ff90268c)<div align="center"><h1>Forecasting the quality of cloud services using an LSTM network</h1></div>
+<h1>Forecasting the quality of cloud services using an LSTM network</h1></div>
 
 * * *
 This repository manages the files used in the experiments of the paper:
@@ -53,25 +53,61 @@ Iteration 1| ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_0_Used%20Memory_rmse
 | Iteration 2         | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mape.png) | 
 | Iteration 3         | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mae.png)   | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mape.png)          | 
 | **_Free Disk_**           
-Iteration 1| ![FreeDisk_rsme.png](imgs/LSTM/metrics/fold_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/fold_0_Freee%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/fold_0_Free%20Disk_mape.png) | 
+Iteration 1| ![FreeDisk_rsme.png](imgs/LSTM/metrics/fold_0_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/fold_0_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/fold_0_Free%20Disk_mape.png) | 
 |Iteration 2| ![FreeDisk_rsme.png](imgs/LSTM/metrics/fold_1_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/fold_1_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/fold_1_Free%20Disk_mape.png) | 
 |Iteration 3| ![FreeDisk_rsme.png](imgs/LSTM/metrics/fold_2_Free%20Disk_rmse.png) |  ![FreeDisk_mae.png](imgs/LSTM/metrics/fold_2_Free%20Disk_mae.png)|        ![FreeDisk_mape.png](imgs/LSTM/metrics/fold_2_Free%20Disk_mape.png) | 
-| **_Used Disk_**           | ![Used Disk_rmse.png](imgs/LSTM/metrics/fold_0_Used%20Disk_rmse.png) | 
- | ![Used Disk_mae.png](imgs/LSTM/metrics/fold_0_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/fold_0_Used%20Disk_mape.png) | 
-| Disk read/s         | ![Disk read_s_mrse.png](imgs%2FDisk%20read_s_mrse.png)                   | ![Disk read_s_mae.png](imgs%2FDisk%20read_s_mae.png)                    | ![Disk read_s_mape.png](imgs%2FDisk%20read_s_mape.png)                   | !
-| Disk write/s        | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mrse.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mae.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mape.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mase.png)                 |
-| NetBytes In         | ![NetBytes In_mrse.png](imgs%2FNetBytes%20In_mrse.png)                   | ![NetBytes In_mrse.png](imgs%2FNetBytes%20In_mae.png)                   | ![NetBytes In_mrse.png](imgs%2FNetBytes%20In_mape.png)                   | 
-| NetBytes Out        | ![NetBytes Out_mrse.png](imgs%2FNetBytes%20Out_mrse.png)                 | ![NetBytes Out_mrse.png](imgs%2FNetBytes%20Out_mae.png)                 | ![NetBytes Out_mrse.png](imgs%2FNetBytes%20Out_mape.png)                 | 
-| NetPackets In       | ![NetPackets In_mrse.png](imgs%2FNetPackets%20In_mrse.png)               | ![NetPackets In_mrse.png](imgs%2FNetPackets%20In_mae.png)               | ![NetPackets In_mrse.png](imgs%2FNetPackets%20In_mape.png)               | 
-| NetPackets Out      |                                                                          |                                                                         |                                                                          |   
-| Rx packets          | ![Rx packets_mrse.png](imgs%2FRx%20packets_mrse.png)                     | ![Rx packets_mrse.png](imgs%2FRx%20packets_mae.png)                     | ![Rx packets_mrse.png](imgs%2FRx%20packets_mape.png)                     | 
-| Tx packets          | ![Tx packets_mrse.png](imgs%2FTx%20packets_mrse.png)                     | ![Tx packets_mrse.png](imgs%2FTx%20packets_mae.png)                     | ![Tx packets_mrse.png](imgs%2FTx%20packets_mape.png)                     | 
-| CPU percent         | ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_0_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_0_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/LSTM/metrics/fold_0_CPU%20percent_mape.png)                   | 
-|         | ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_1_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_1_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/LSTM/metrics/fold_1_CPU%20percent_mape.png)                   | 
-|         | ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_2_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_2_CPU%20percent_mae.png)                    | ![FCPU percent_mape.png](imgs/LSTM/metrics/fold_2_CPU%20percent_mape.png)  
-| Memory Used percent | ![Memory Used percent_mrse.png](imgs%2FMemory%20Used%20percent_mrse.png) | ![Memory Used percent_mrse.png](imgs%2FMemory%20Used%20percent_mae.png) | ![Memory Used percent_mrse.png](imgs%2FMemory%20Used%20percent_mape.png) | 
-| Disk Used percent   | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mrse.png)     | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mae.png)     | ![Disk Used percent_mrse.png](imgs%2FDisk%20Used%20percent_mape.png)     | 
-| Uptime              | ![Uptime_mrse.png](imgs%2FUptime_mrse.png)                               | ![Uptime_mrse.png](imgs%2FUptime_mae.png)                               | ![Uptime_mrse.png](imgs%2FUptime_mape.png)                               | 
+| **_Used Disk_**
+Iteration 1| ![Used Disk_rmse.png](imgs/LSTM/metrics/fold_0_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/LSTM/metrics/fold_0_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/fold_0_Used%20Disk_mape.png) | 
+|Iteration 2| ![Used Disk_rmse.png](imgs/LSTM/metrics/fold_1_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/LSTM/metrics/fold_1_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/fold_1_Used%20Disk_mape.png) | 
+|Iteration 3| ![Used Disk_rmse.png](imgs/LSTM/metrics/fold_2_Used%20Disk_rmse.png) | ![Used Disk_mae.png](imgs/LSTM/metrics/fold_2_Used%20Disk_mae.png) | ![Used Disk_mape.png](imgs/LSTM/metrics/fold_2_Used%20Disk_mape.png) | 
+| **_Disk read/s_**
+Iteration 1|![Disk_read_s_rmse.png](imgs/LSTM/metrics/fold_0_Disk%20read_s_rmse.png) | 	![Disk_read_s_mae.png](imgs/LSTM/metrics/fold_0_Disk%20read_s_mae.png) | 	![Disk_read_s_mape.png](imgs/LSTM/metrics/fold_0_Disk%20read_s_mape.png) | 
+|Iteration 2|![Disk_read_s_rmse.png](imgs/LSTM/metrics/fold_1_Disk%20read_s_rmse.png) | 	![Disk_read_s_mae.png](imgs/LSTM/metrics/fold_1_Disk%20read_s_mae.png) | 	![Disk_read_s_mape.png](imgs/LSTM/metrics/fold_1_Disk%20read_s_mape.png) | 
+|Iteration 3|![Disk_read_s_rmse.png](imgs/LSTM/metrics/fold_2_Disk%20read_s_rmse.png) | 	![Disk_read_s_mae.png](imgs/LSTM/metrics/fold_2_Disk%20read_s_mae.png) | 	![Disk_read_s_mape.png](imgs/LSTM/metrics/fold_2_Disk%20read_s_mape.png) | 
+| **_Disk write/s_**
+Iteration 1|![Disk write_s_rmse.png](imgs/LSTM/metrics/fold_0_Disk%20write_s_rmse.png) | 	![Disk write_s_mae.png](imgs/LSTM/metrics/fold_0_Disk%20write_s_mae.png) | 	![Disk write_s_mape.png](imgs/LSTM/metrics/fold_0_Disk%20write_s_mape.png) | 
+|Iteration 2|![Disk write_s_rmse.png](imgs/LSTM/metrics/fold_1_Disk%20write_s_rmse.png) | 	![Disk write_s_mae.png](imgs/LSTM/metrics/fold_1_Disk%20write_s_mae.png) | 	![Disk write_s_mape.png](imgs/LSTM/metrics/fold_1_Disk%20write_s_mape.png) | 
+|Iteration 3|![Disk write_s_rmse.png](imgs/LSTM/metrics/fold_2_Disk%20write_s_rmse.png) | 	![Disk write_s_mae.png](imgs/LSTM/metrics/fold_2_Disk%20write_s_mae.png) | 	![Disk write_s_mape.png](imgs/LSTM/metrics/fold_2_Disk%20write_s_mape.png) | 
+| **_NetBytes In_**     
+Iteration 1| ![NetBytes In_rmse.png](imgs/LSTM/metrics/fold_0_NetBytes%20In_rmse.png) | 	![NetBytes In_mae.png](imgs/LSTM/metrics/fold_0_NetBytes%20In_mae.png) | 	![NetBytes In_mape.png](imgs/LSTM/metrics/fold_0_NetBytes%20In_mape.png) | 
+|Iteration 2| ![NetBytes In_rmse.png](imgs/LSTM/metrics/fold_1_NetBytes%20In_rmse.png) | 	![NetBytes In_mae.png](imgs/LSTM/metrics/fold_1_NetBytes%20In_mae.png) | 	![NetBytes In_mape.png](imgs/LSTM/metrics/fold_1_NetBytes%20In_mape.png) | 
+|Iteration 3| ![NetBytes In_rmse.png](imgs/LSTM/metrics/fold_2_NetBytes%20In_rmse.png) | 	![NetBytes In_mae.png](imgs/LSTM/metrics/fold_2_NetBytes%20In_mae.png) | 	![NetBytes In_mape.png](imgs/LSTM/metrics/fold_2_NetBytes%20In_mape.png) | 
+| **_NetBytes Out_**  
+Iteration 1 ![NetBytes Out_rmse.png](imgs/LSTM/metrics/fold_0_NetBytes%20Out_rmse.png) | 	![NetBytes Out_mae.png](imgs/LSTM/metrics/fold_0_NetBytes%20Out_mae.png) | 	![NetBytes Out_mape.png](imgs/LSTM/metrics/fold_0_NetBytes%20Out_mape.png) | 
+|Iteration 2 ![NetBytes Out_rmse.png](imgs/LSTM/metrics/fold_1_NetBytes%20Out_rmse.png) | 	![NetBytes Out_mae.png](imgs/LSTM/metrics/fold_1_NetBytes%20Out_mae.png) | 	![NetBytes Out_mape.png](imgs/LSTM/metrics/fold_1_NetBytes%20Out_mape.png) |
+|Iteration 3 ![NetBytes Out_rmse.png](imgs/LSTM/metrics/fold_2_NetBytes%20Out_rmse.png) | 	![NetBytes Out_mae.png](imgs/LSTM/metrics/fold_2_NetBytes%20Out_mae.png) | 	![NetBytes Out_mape.png](imgs/LSTM/metrics/fold_2_NetBytes%20Out_mape.png) |
+| **_NetPackets In_**   
+Iteration 1| ![NetPackets In_rmse.png](imgs/LSTM/metrics/fold_0_NetPackets%20In_rmse.png) | 	![NetPackets In_mae.png](imgs/LSTM/metrics/fold_0_NetPackets%20In_mae.png) | 	![NetPackets In_mape.png](imgs/LSTM/metrics/fold_0_NetPackets%20In_mape.png) | 
+|Iteration 2| ![NetPackets In_rmse.png](imgs/LSTM/metrics/fold_1_NetPackets%20In_rmse.png) | 	![NetPackets In_mae.png](imgs/LSTM/metrics/fold_1_NetPackets%20In_mae.png) | 	![NetPackets In_mape.png](imgs/LSTM/metrics/fold_1_NetPackets%20In_mape.png) | 
+|Iteration 3| ![NetPackets In_rmse.png](imgs/LSTM/metrics/fold_2_NetPackets%20In_rmse.png) | 	![NetPackets In_mae.png](imgs/LSTM/metrics/fold_2_NetPackets%20In_mae.png) | 	![NetPackets In_mape.png](imgs/LSTM/metrics/fold_2_NetPackets%20In_mape.png) | 
+| **_NetPackets Out_**   
+Iteration 1|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_mape.png) | 
+|Iteration 2|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_mape.png) | 
+| Iteration 3|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mape.png) |              
+| **_Rx packets_**    
+Iteration 1|![Rx packets_rmse.png](imgs/LSTM/metrics/fold_0_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/LSTM/metrics/fold_0_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/LSTM/metrics/fold_0_Rx%20packets_mape.png) | 
+|Iteration 2|![Rx packets_rmse.png](imgs/LSTM/metrics/fold_1_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/LSTM/metrics/fold_1_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/LSTM/metrics/fold_1_Rx%20packets_mape.png) | 
+|Iteration 3|![Rx packets_rmse.png](imgs/LSTM/metrics/fold_2_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/LSTM/metrics/fold_2_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/LSTM/metrics/fold_2_Rx%20packets_mape.png) | 
+| **_Tx packets_**         
+Iteration 1 |![Tx packets_rmse.png](imgs/LSTM/metrics/fold_0_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/LSTM/metrics/fold_0_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/LSTM/metrics/fold_0_Tx%20packets_mape.png) | 
+|Iteration 2 |![Tx packets_rmse.png](imgs/LSTM/metrics/fold_1_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/LSTM/metrics/fold_1_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/LSTM/metrics/fold_1_Tx%20packets_mape.png) | 
+|Iteration 3 |![Tx packets_rmse.png](imgs/LSTM/metrics/fold_2_Tx%20packets_rmse.png) | 	![Tx packets_mae.png](imgs/LSTM/metrics/fold_2_Tx%20packets_mae.png) | 	![Tx packets_mape.png](imgs/LSTM/metrics/fold_2_Tx%20packets_mape.png) | 
+| **_CPU percent_**
+Iteration 1| ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_0_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_0_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/LSTM/metrics/fold_0_CPU%20percent_mape.png) | 
+|Iteration 2         | ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_1_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_1_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/LSTM/metrics/fold_1_CPU%20percent_mape.png) | 
+| Iteration 3| ![CPU percent_mrse.png](imgs/LSTM/metrics/fold_2_CPU%20percent_rmse.png)                   | ![CPU percent_mae.png](imgs/LSTM/metrics/fold_2_CPU%20percent_mae.png)                    | ![CPU percent_mape.png](imgs/LSTM/metrics/fold_2_CPU%20percent_mape.png)  
+| **_Memory Used percent_** 
+Iteration 1 |![Memory Used percent_rmse.png](imgs/LSTM/metrics/fold_0_Memory%20Used%20percent_rmse.png) | 	![Memory Used percent_mae.png](imgs/LSTM/metrics/fold_0_Memory%20Used%20percent_mae.png) | 	![Memory Used percent_mape.png](imgs/LSTM/metrics/fold_0_Memory%20Used%20percent_mape.png) | 
+|Iteration 2 |![Memory Used percent_rmse.png](imgs/LSTM/metrics/fold_1_Memory%20Used%20percent_rmse.png) | 	![Memory Used percent_mae.png](imgs/LSTM/metrics/fold_1_Memory%20Used%20percent_mae.png) | 	![Memory Used percent_mape.png](imgs/LSTM/metrics/fold_1_Memory%20Used%20percent_mape.png) |
+|Iteration 3 |![Memory Used percent_rmse.png](imgs/LSTM/metrics/fold_2_Memory%20Used%20percent_rmse.png) | 	![Memory Used percent_mae.png](imgs/LSTM/metrics/fold_2_Memory%20Used%20percent_mae.png) | 	![Memory Used percent_mape.png](imgs/LSTM/metrics/fold_2_Memory%20Used%20percent_mape.png) |
+| **_Disk Used percent_**  
+Iteration 1 |![Disk Used percent_rmse.png](imgs/LSTM/metrics/fold_0_Disk%20Used%20percent_rmse.png) | 	![Disk Used percent_mae.png](imgs/LSTM/metrics/fold_0_Disk%20Used%20percent_mae.png) | 	![Disk Used percent_mape.png](imgs/LSTM/metrics/fold_0_Disk%20Used%20percent_mape.png) | 
+Iteration 2 |![Disk Used percent_rmse.png](imgs/LSTM/metrics/fold_1_Disk%20Used%20percent_rmse.png) | 	![Disk Used percent_mae.png](imgs/LSTM/metrics/fold_1_Disk%20Used%20percent_mae.png) | 	![Disk Used percent_mape.png](imgs/LSTM/metrics/fold_1_Disk%20Used%20percent_mape.png) |
+Iteration 3 |![Disk Used percent_rmse.png](imgs/LSTM/metrics/fold_2_Disk%20Used%20percent_rmse.png) | 	![Disk Used percent_mae.png](imgs/LSTM/metrics/fold_2_Disk%20Used%20percent_mae.png) | 	![Disk Used percent_mape.png](imgs/LSTM/metrics/fold_2_Disk%20Used%20percent_mape.png) |
+| **_Uptime_**
+Iteration 1 | ![Uptime_rmse.png](imgs/LSTM/metrics/fold_0_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_0_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_0_Uptime_mape.png) | 
+|Iteration 2 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_1_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_1_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_1_Uptime_mape.png) | 
+|Iteration 3 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_2_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_2_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_2_Uptime_mape.png) | 
 
 ## ARIMA Model Prediction 
 
