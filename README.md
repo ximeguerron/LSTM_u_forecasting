@@ -1,4 +1,4 @@
-<h1>[Forecasting the quality of cloud services using an LSTM network](#Home)</h1></div>
+<h1>Forecasting the quality of cloud services using an LSTM network</h1></div>
 
 * * *
 This repository manages the files used in the experiments of the paper:
@@ -13,7 +13,7 @@ _**Forecasting the quality of cloud services using an LSTM network**_
 
 The following section presents the results obtained for the 16 variables used to develop the experiment, as well as additional information related to them.
 
-## Index
+## Index {#Home}
 1. [Dataset](#datos)
 2. [LSTM Accuracy Metrics](#Metric)
 3. [ARIMA model predictions](#ARIMA)
@@ -45,7 +45,7 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 | Disk Used percent   | ![Disk Used percent_dataset.png](imgs/dataset/DiskUsedpercent_data.jpg) |
 | Uptime              | ![Uptime_dataset.png](imgs/dataset/Uptime_data.jpg)                     |
 
-[Home](#Home)
+[Index](#Home)
 
 ## 2. LSTM Accuracy Metrics {#Metric}
 LSTM model performance evaluation using accuracy metrics **_RMSE, MAE, MAPE_** 
@@ -117,7 +117,7 @@ Iteration 1 | ![Uptime_rmse.png](imgs/LSTM/metrics/fold_0_Uptime_rmse.png) | 	![
 |Iteration 2 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_1_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_1_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_1_Uptime_mape.png) | 
 |Iteration 3 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_2_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_2_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_2_Uptime_mape.png) | 
 
-[Home](#Home)
+[Index](#Home)
 
 ## 3. ARIMA Model Prediction {#ARIMA}
 ARIMA Model fitting with prequential cross-validation
@@ -141,7 +141,7 @@ ARIMA Model fitting with prequential cross-validation
 | Disk Used percent   | ![DiskUsedpercent_test.png](imgs/Arima/fold-0_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/Arima/fold-1_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/Arima/fold-2_DiskUsedpercent_test_result.jpg) | 
 | Uptime              |![Uptime_rmse.png](imgs/Arima/fold-0_Uptime_test_result.jpg) | 	![Uptime_mae.png](imgs/Arima/fold-1_Uptime_test_result.jpg) | 	![Uptime_mape.png](imgs/Arima/fold-2_Uptime_test_result.jpg) | 
 
-[Home](#Home)
+[Index](#Home)
 
 ## 4. LSTM Model Prediction {#LSTM}
 LSTM Model fitting with prequential cross-validation
@@ -165,4 +165,4 @@ LSTM Model fitting with prequential cross-validation
 | Disk Used percent   | ![Disk Used percent_test.png](imgs/LSTM/results/fold_0_Disk%20Used%20percent_train_result.png) | 	![Disk Used percent_test.png](imgs/LSTM/results/fold_1_Disk%20Used%20percent_train_result.png) | 	![Disk Used percent_test.png](imgs/LSTM/results/fold_2_Disk%20Used%20percent_train_result.png) | 
 | Uptime              | ![Uptime_test.png](imgs/LSTM/results/fold_0_Uptime_train_result.png) | 	![Uptime_test.png](imgs/LSTM/results/fold_1_Uptime_train_result.png) | 	![Uptime_test.png](imgs/LSTM/results/fold_2_Uptime_train_result.png) | 
 
-[Home](#Home)
+[Index](#Home)
