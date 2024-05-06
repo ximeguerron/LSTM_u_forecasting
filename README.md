@@ -15,7 +15,7 @@ The following section presents the results obtained for the 16 variables used to
 
 These results are:
 
-* Representation of the **_training, validation and test_** datasets with the observations extracted from the cloud service SAlert monitoring.
+* Representation of the **_datasets_**  with the observations of 16 QoS metrics extracted from the cloud service SAlert monitoring.
 * Model validation metrics consisting of **_RMSE, MAE, MAPE_**
 * Model fitting on the training dataset and prediction on the test dataset.
 
@@ -44,13 +44,15 @@ These results are:
 
 | Variable            | RMSE                                                                     | MAE                                                                     | MAPE                                                                     | 
 |---------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| Free Memory         | ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_0_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_0_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_0_Free%20Memory_mape.png)                   | 
-|         | ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_1_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_1_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_1_Free%20Memory_mape.png)                   | 
-|         | ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_2_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_2_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_2_Free%20Memory_mape.png)                   | 
-| Used Memory         | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_0_Used%20Memory_mape.png)                   | 
-|          | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mape.png)                   | 
-|          | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mape.png)                   | 
-| Free Disk           | ![Free Disk_mrse.png](imgs%2FFree%20Disk_mrse.png)                       | ![Free Disk_mae.png](imgs%2FFree%20Disk_mae.png)                        | ![Free Disk_mape.png](imgs%2FFree%20Disk_mape.png)                       | 
+| **_Free Memory_**        
+Iteration 1| ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_0_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_0_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_0_Free%20Memory_mape.png)                   | 
+|Iteration 2         | ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_1_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_1_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_1_Free%20Memory_mape.png)                   | 
+| Iteration 3        | ![Free Memory_mrse.png](imgs/LSTM/metrics/fold_2_Free%20Memory_rmse.png)                   | ![Free Memory_mae.png](imgs/LSTM/metrics/fold_2_Free%20Memory_mae.png)                    | ![Free Memory_mape.png](imgs/LSTM/metrics/fold_2_Free%20Memory_mape.png)                   | 
+| **_Used Memory_**         
+Iteration 1| ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_0_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_0_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_0_Used%20Memory_mape.png)                   | 
+| Iteration 2         | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_1_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_1_Used%20Memory_mape.png)                   | 
+| Iteration 3         | ![Used Memory_rsme.png](imgs/LSTM/metrics/fold_2_Used%20Memory_rmse.png)                   | ![Used Memory_mae.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mae.png)                    | ![Used Memory_mape.png](imgs/LSTM/metrics/fold_2_Used%20Memory_mape.png)                   | 
+| Free Disk           | ![FreeDisk.png](imgs/LSTM/metrics/fold_0_Free%20Disk_rmse.png) |  ![Free Disk_mae.png](imgs%2FFree%20Disk_mae.png)                        | ![Free Disk_mape.png](imgs%2FFree%20Disk_mape.png)                       | 
 | Used Disk           | ![Used Disk_mrse.png](imgs%2FUsed%20Disk_mrse.png)                       | ![Used Disk_mae.png](imgs%2FUsed%20Disk_mae.png)                        | ![Used Disk_mape.png](imgs%2FUsed%20Disk_mape.png)                       | 
 | Disk read/s         | ![Disk read_s_mrse.png](imgs%2FDisk%20read_s_mrse.png)                   | ![Disk read_s_mae.png](imgs%2FDisk%20read_s_mae.png)                    | ![Disk read_s_mape.png](imgs%2FDisk%20read_s_mape.png)                   | !
 | Disk write/s        | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mrse.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mae.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mape.png)                 | ![Disk write_s_mrse.png](imgs%2FDisk%20write_s_mase.png)                 |
