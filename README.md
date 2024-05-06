@@ -20,7 +20,7 @@ The following section presents the results obtained for the 16 variables used to
 4. [LSTM model predictions](#LSTM)
 
 
-## _Datasets_ {#Datos}
+## 1. Datasets {#Datos}
 Representation of the **_datasets_**  with the observations of 16 QoS metrics extracted from the cloud service SAlert monitoring.
 
 | Variable            | Dataset                                                                  |
@@ -42,7 +42,7 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 | Disk Used percent   | ![Disk Used percent_dataset.png](imgs/dataset/DiskUsedpercent_data.jpg) |
 | Uptime              | ![Uptime_dataset.png](imgs/dataset/Uptime_data.jpg)                     |
 
-## LSTM Accuracy Metrics {#Metric}
+## 2. LSTM Accuracy Metrics {#Metric}
 LSTM model performance evaluation using accuracy metrics **_RMSE, MAE, MAPE_** 
 
 | Variable            | RMSE                                                                     | MAE                                                                     | MAPE                                                                     | 
@@ -86,7 +86,7 @@ Iteration 1| ![NetPackets In_rmse.png](imgs/LSTM/metrics/fold_0_NetPackets%20In_
 | **_NetPackets Out_**   
 Iteration 1|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_0_NetPackets%20Out_mape.png) | 
 |Iteration 2|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_1_NetPackets%20Out_mape.png) | 
-| Iteration 3|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mape.png) |              
+| Iteration 3|![NetPackets Out_rmse.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_rmse.png) | 	![NetPackets Out_mae.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mae.png) | ![NetPackets Out_mape.png](imgs/LSTM/metrics/fold_2_NetPackets%20Out_mape.png) |     
 | **_Rx packets_**    
 Iteration 1|![Rx packets_rmse.png](imgs/LSTM/metrics/fold_0_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/LSTM/metrics/fold_0_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/LSTM/metrics/fold_0_Rx%20packets_mape.png) | 
 |Iteration 2|![Rx packets_rmse.png](imgs/LSTM/metrics/fold_1_Rx%20packets_rmse.png) | 	![Rx packets_mae.png](imgs/LSTM/metrics/fold_1_Rx%20packets_mae.png) | 	![Rx packets_mape.png](imgs/LSTM/metrics/fold_1_Rx%20packets_mape.png) | 
@@ -112,7 +112,7 @@ Iteration 1 | ![Uptime_rmse.png](imgs/LSTM/metrics/fold_0_Uptime_rmse.png) | 	![
 |Iteration 2 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_1_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_1_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_1_Uptime_mape.png) | 
 |Iteration 3 |  ![Uptime_rmse.png](imgs/LSTM/metrics/fold_2_Uptime_rmse.png) | 	![Uptime_mae.png](imgs/LSTM/metrics/fold_2_Uptime_mae.png) | 	![Uptime_mape.png](imgs/LSTM/metrics/fold_2_Uptime_mape.png) | 
 
-## ARIMA Model Prediction {#ARIMA}
+## 3. ARIMA Model Prediction {#ARIMA}
 ARIMA Model fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
@@ -136,7 +136,7 @@ ARIMA Model fitting with prequential cross-validation
 
 
 
-## LSTM Model Prediction {#LSTM}
+## 4. LSTM Model Prediction {#LSTM}
 LSTM Model fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
