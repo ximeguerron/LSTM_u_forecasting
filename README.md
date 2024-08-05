@@ -18,6 +18,7 @@ The following section presents the results obtained for the 16 variables used to
 2. [LSTM Accuracy Metrics](#Metric)
 3. [ARIMA model predictions](#ARIMA)
 4. [LSTM model predictions](#LSTM)
+5. [AUTO ARIMA model predictions](#AUTOARIMA) 
 
 
 ## 1. Datasets {#Datos}
@@ -166,3 +167,28 @@ LSTM Model fitting with prequential cross-validation
 | Uptime              | ![Uptime_test.png](imgs/LSTM/results/fold_0_Uptime_train_result.png) | 	![Uptime_test.png](imgs/LSTM/results/fold_1_Uptime_train_result.png) | 	![Uptime_test.png](imgs/LSTM/results/fold_2_Uptime_train_result.png) | 
 
 [Index](#Home)
+
+## 5. AUTOARIMA Model Prediction {#AUTOARIMA}
+ARIMA Model auto fitting with prequential cross-validation
+
+| Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
+|---------------------|-----------------------|--------------------------------------|-----------------------|
+| Free Memory         | ![FreeMemory_.png](imgs/AutoArima/Iteration-0_FreeMemory_test_result.jpg) | 	![FreeMemory_.png](imgs/AutoArima/Iteration-1_FreeMemory_test_result.jpg) | 	![FreeMemory_.png](imgs/AutoArima/Iteration-2_FreeMemory_test_result.jpg) | 
+| Used Memory         | ![UsedMemory_.png](imgs/AutoArima/Iteration-0_UsedMemory_test_result.jpg) | 	![UsedMemory_.png](imgs/AutoArima/Iteration-1_UsedMemory_test_result.jpg) | 	![UsedMemory_.png](imgs/AutoArima/Iteration-2_UsedMemory_test_result.jpg) |   
+| Free Disk           | ![FreeDisk_test.png](imgs/AutoArima/Iteration-0_FreeDisk_test_result.jpg) | 	![FreeDisk_test.png](imgs/AutoArima/Iteration-1_FreeDisk_test_result.jpg) | 	![FreeDisk_test.png](imgs/AutoArima/Iteration-2_FreeDisk_test_result.jpg) | 
+| Used Disk           | ![UsedDisk_test.png](imgs/AutoArima/Iteration-0_UsedDisk_test_result.jpg) | 	![UsedDisk_test.png](imgs/AutoArima/Iteration-1_UsedDisk_test_result.jpg) | 	![UsedDisk_test.png](imgs/AutoArima/Iteration-2_UsedDisk_test_result.jpg) | 
+| Disk read/s         | ![Diskreads_test.png](imgs/AutoArima/Iteration-0_Diskreads_test_result.jpg) | 	![Diskreads_test.png](imgs/AutoArima/Iteration-1_Diskreads_test_result.jpg) | 	![Diskreads_test.png](imgs/AutoArima/Iteration-2_Diskreads_test_result.jpg) | 
+| Disk write/s        | ![Diskwrites_test.png](imgs/AutoArima/Iteration-0_Diskwrites_test_result.jpg) | 	![Diskwrites_test.png](imgs/AutoArima/Iteration-1_Diskwrites_test_result.jpg) | 	![Diskwrites_test.png](imgs/AutoArima/Iteration-2_Diskwrites_test_result.jpg) | 
+| NetBytes In         | ![NetBytes In_test.png](imgs/AutoArima/Iteration-0_NetBytesIn_test_result.jpg) | 	![NetBytes In_test.png](imgs/AutoArima/Iteration-1_NetBytesIn_test_result.jpg) | 	![NetBytes In_test.png](imgs/AutoArima/Iteration-2_NetBytesIn_test_result.jpg) | 
+| NetBytes Out        | ![NetBytesOut_test.png](imgs/AutoArima/Iteration-0_NetBytesOut_test_result.jpg) | 	![NetBytesOut_test.png](imgs/AutoArima/Iteration-1_NetBytesOut_test_result.jpg) | 	![NetBytesOut_test.png](imgs/AutoArima/Iteration-2_NetBytesOut_test_result.jpg) | 
+| NetPackets In       | ![NetPacketsIn_test.png](imgs/AutoArima/Iteration-0_NetPacketsIn_test_result.jpg) | 	![NetPacketsIn_test.png](imgs/AutoArima/Iteration-1_NetPacketsIn_test_result.jpg) | 	![NetPacketsIn_test.png](imgs/AutoArima/Iteration-2_NetPacketsIn_test_result.jpg) | 
+| NetPackets Out      |  ![NetPacketsOut_test.png](imgs/AutoArima/Iteration-0_NetPacketsOut_test_result.jpg) | 	![NetPacketsOut_test.png](imgs/AutoArima/Iteration-1_NetPacketsOut_test_result.jpg) | 	![NetPacketsOut_test.png](imgs/AutoArima/Iteration-2_NetPacketsOut_test_result.jpg) |
+| Rx packets          | ![Rxpackets_test.png](imgs/AutoArima/Iteration-0_Rxpackets_test_result.jpg) | 	![Rxpackets_test.png](imgs/AutoArima/Iteration-1_Rxpackets_test_result.jpg) | 	![Rxpackets_test.png](imgs/AutoArima/Iteration-2_Rxpackets_test_result.jpg) | 
+| Tx packets          | ![Txpackets_test.png](imgs/AutoArima/Iteration-0_Txpackets_test_result.jpg) | 	![Txpackets_test.png](imgs/AutoArima/Iteration-1_Txpackets_test_result.jpg) | 	![Txpackets_test.png](imgs/AutoArima/Iteration-2_Txpackets_test_result.jpg) | 
+| CPU percent         | ![CPUpercent_test.png](imgs/AutoArima/Iteration-0_CPUpercent_test_result.jpg) | 	![CPUpercent_test.png](imgs/AutoArima/Iteration-1_CPUpercent_test_result.jpg) | 	![CPUpercent_test.png](imgs/AutoArima/Iteration-2_CPUpercent_test_result.jpg) | 
+| Memory Used percent | ![MemoryUsedpercent_test.png](imgs/AutoArima/Iteration-0_MemoryUsedpercent_test_result.jpg) | 	![MemoryUsedpercent_test.png](imgs/AutoArima/Iteration-1_MemoryUsedpercent_test_result.jpg) | 	![MemoryUsedpercent_test.png](imgs/AutoArima/Iteration-2_MemoryUsedpercent_test_result.jpg) | 
+| Disk Used percent   | ![DiskUsedpercent_test.png](imgs/AutoArima/Iteration-0_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/AutoArima/Iteration-1_DiskUsedpercent_test_result.jpg) | 	![DiskUsedpercent_test.png](imgs/AutoArima/Iteration-2_DiskUsedpercent_test_result.jpg) | 
+| Uptime              |![Uptime_rmse.png](imgs/AutoArima/Iteration-0_Uptime_test_result.jpg) | 	![Uptime_mae.png](imgs/AutoArima/Iteration-1_Uptime_test_result.jpg) | 	![Uptime_mape.png](imgs/AutoArima/Iteration-2_Uptime_test_result.jpg) | 
+
+[Index](#Home)
+
