@@ -5,20 +5,16 @@ This repository manages the files used in the experiments of the paper:
 _**Forecasting the quality of cloud services using LSTM networks: ML modeling process and experiment**_
 * * *
 
-<p align="center">
-    <a href="./experiment/lstm_univariado_uni_experiment_v4.ipynb">
-        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-    </a>
-</p>
 
 The following section presents the results obtained for the 16 variables used to develop the experiment, as well as additional information related to them.
 
 ## Index {#Home}
 1. [Dataset](#datos)
-2. [LSTM Accuracy Metrics](#Metric)
-3. [ARIMA model predictions](#ARIMA)
-4. [LSTM model predictions](#LSTM)
-5. [AUTO ARIMA model predictions](#AUTOARIMA) 
+2. [Jupiter Notebook](#notebook)
+3. [LSTM Accuracy Metrics](#Metric)
+4. [ARIMA model predictions](#ARIMA)
+5. [LSTM model predictions](#LSTM)
+6. [AUTO ARIMA model predictions](#AUTOARIMA) 
 
 
 ## 1. Datasets {#Datos}
@@ -48,7 +44,18 @@ Representation of the **_datasets_**  with the observations of 16 QoS metrics ex
 
 [Index](#Home)
 
-## 2. LSTM Accuracy Metrics {#Metric}
+## 2. Jupiter Notebook {#notebook}
+The notebook is available on the link, and the directories required for execution are detailed on the readme.txt file
+
+<p align="center">
+    <a href="./experiment/lstm_univariado_uni_experiment_v4.ipynb">
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+    </a>
+</p>
+
+[Index](#Home)
+
+## 3. LSTM Accuracy Metrics {#Metric}
 LSTM model performance evaluation using accuracy metrics **_RMSE, MAE, MAPE_** 
 
 | Variable            | RMSE                                                                     | MAE                                                                     | MAPE                                                                     | 
@@ -120,7 +127,7 @@ Iteration 1 | ![Uptime_rmse.png](imgs/LSTM/metrics/fold_0_Uptime_rmse.png) | 	![
 
 [Index](#Home)
 
-## 3. ARIMA Model Prediction {#ARIMA}
+## 4. ARIMA Model Prediction {#ARIMA}
 ARIMA Model fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
@@ -144,7 +151,7 @@ ARIMA Model fitting with prequential cross-validation
 
 [Index](#Home)
 
-## 4. LSTM Model Prediction {#LSTM}
+## 5. LSTM Model Prediction {#LSTM}
 LSTM Model fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
@@ -168,7 +175,7 @@ LSTM Model fitting with prequential cross-validation
 
 [Index](#Home)
 
-## 5. AUTOARIMA Model Prediction {#AUTOARIMA}
+## 6. AUTOARIMA Model Prediction {#AUTOARIMA}
 ARIMA Model auto fitting with prequential cross-validation
 
 | Variable            | Iteration 1                | Iteration 2              | Iteration 3  | 
