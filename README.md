@@ -53,6 +53,8 @@ The notebook is available on the link, and the directories required for executio
     </a>
 </p>
 
+The statistics used are available on the link <a href ="./experiment/ESEMV7.xls">  Model statistics </a>
+
 [Index](#Home)
 
 ## 3. LSTM Accuracy Metrics {#Metric}
